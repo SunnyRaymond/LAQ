@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laq"
+version = "0.1.0"
+description = "Latent-aware 4-bit quantization of world action models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.4", "safetensors>=0.4", "huggingface-hub>=0.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+kernels = ["triton>=3.0; platform_system == 'Linux'"]
+
+[tool.setuptools.packages.find]
+include = ["laq*"]
+
+[tool.setuptools.package-data]
+laq = ["models.json", "int4/*.cu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

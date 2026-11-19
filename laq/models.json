@@ -1,0 +1,16 @@
+{
+  "fastwam-libero": {
+    "repo_id": null,
+    "revision": null,
+    "wam": "fastwam",
+    "base_model": "yuanty/fastwam",
+    "precision": "W4A4KV4"
+  },
+  "cosmos-policy-libero": {
+    "repo_id": null,
+    "revision": null,
+    "wam": "cosmos-policy",
+    "base_model": "nvidia/Cosmos-Policy-LIBERO-Predict2-2B",
+    "precision": "W4A4KV4"
+  }
+}
