@@ -1,14 +1,14 @@
 {
   "fastwam-libero": {
-    "repo_id": null,
-    "revision": null,
+    "repo_id": "SunnyRay114514/LAQ-FastWAM-LIBERO",
+    "revision": "2cb09c9088019884c7d16f5ece42ff025d576532",
     "wam": "fastwam",
     "base_model": "yuanty/fastwam",
     "precision": "W4A4KV4"
   },
   "cosmos-policy-libero": {
-    "repo_id": null,
-    "revision": null,
+    "repo_id": "SunnyRay114514/LAQ-Cosmos-Policy-LIBERO",
+    "revision": "7d02757aa5b7ec0bee7c2ac8cad6db9256186647",
     "wam": "cosmos-policy",
     "base_model": "nvidia/Cosmos-Policy-LIBERO-Predict2-2B",
     "precision": "W4A4KV4"

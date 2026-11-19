@@ -22,4 +22,4 @@ def download(model, cache_dir=None, local_files_only=False):
     from huggingface_hub import snapshot_download
     return Path(snapshot_download(spec["repo_id"], revision=spec["revision"], cache_dir=cache_dir,
                                   local_files_only=local_files_only,
-                                  allow_patterns=["config.json", "weights.safetensors", "metric.pt"]))
+                                  allow_patterns=["config.json", "weights.safetensors"]))
