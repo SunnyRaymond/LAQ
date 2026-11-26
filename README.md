@@ -19,6 +19,8 @@
   &nbsp;|&nbsp;
   🤗 <a href="#model-zoo"><b>Models</b></a>
   &nbsp;|&nbsp;
+  🤖 <a href="#real-world"><b>Real Robot</b></a>
+  &nbsp;|&nbsp;
   ⚡ <a href="#quick-start"><b>Quick Start</b></a>
   &nbsp;|&nbsp;
   📝 <a href="#citation"><b>Citation</b></a>
@@ -43,6 +45,7 @@ recalibration.
 <details>
 <summary>📖 <b>Table of Contents</b></summary>
 
+- [🤖 Real-World Rollouts](#real-world)
 - [🔍 Method](#method)
 - [🤗 Model Zoo](#model-zoo)
 - [⚡ Quick Start](#quick-start)
@@ -52,6 +55,26 @@ recalibration.
 - [📜 License](#license)
 
 </details>
+
+---
+
+<a id="real-world"></a>
+## 🤖 Real-World Rollouts
+
+Fast-WAM quantized to W4A4KV4 with LAQ, controlling a real AgileX PiPER arm (played at 2× speed).
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="assets/real_pick_and_place.gif" alt="Pick-and-place rollout" width="100%"/></td>
+    <td align="center" width="33%"><img src="assets/real_shelf_placement.gif" alt="Shelf placement rollout" width="100%"/></td>
+    <td align="center" width="33%"><img src="assets/real_box_stacking.gif" alt="Box stacking rollout" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Pick-and-place</b></td>
+    <td align="center"><b>Shelf placement</b></td>
+    <td align="center"><b>Box stacking</b></td>
+  </tr>
+</table>
 
 ---
 
