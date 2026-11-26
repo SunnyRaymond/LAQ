@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 128 128" role="img" aria-label="LAQ logo">
+  <defs>
+    <linearGradient id="cool" x1="10" y1="118" x2="118" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B5BF0"/>
+      <stop offset="1" stop-color="#3FC3F7"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="40" y1="88" x2="118" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9A3D"/>
+      <stop offset="1" stop-color="#FF5C7A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- A 4 x 4 grid of tokens on a transparent background. The cool cells fade toward the corner the gaze leaves
+       behind; the warm cells are the tokens the action looks at, forming an arrow that points to the future. -->
+  <g fill="url(#cool)">
+    <rect x="10" y="10" width="24" height="24" rx="6" opacity="0.55"/>
+    <rect x="38" y="10" width="24" height="24" rx="6" opacity="0.75"/>
+    <rect x="10" y="38" width="24" height="24" rx="6" opacity="0.40"/>
+    <rect x="38" y="38" width="24" height="24" rx="6" opacity="0.60"/>
+    <rect x="94" y="66" width="24" height="24" rx="6" opacity="0.75"/>
+    <rect x="10" y="66" width="24" height="24" rx="6" opacity="0.28"/>
+    <rect x="66" y="66" width="24" height="24" rx="6" opacity="0.60"/>
+    <rect x="10" y="94" width="24" height="24" rx="6" opacity="0.18"/>
+    <rect x="38" y="94" width="24" height="24" rx="6" opacity="0.28"/>
+    <rect x="66" y="94" width="24" height="24" rx="6" opacity="0.40"/>
+    <rect x="94" y="94" width="24" height="24" rx="6" opacity="0.55"/>
+  </g>
+  <g fill="url(#warm)">
+    <rect x="38" y="66" width="24" height="24" rx="6"/>
+    <rect x="66" y="38" width="24" height="24" rx="6"/>
+    <rect x="94" y="10" width="24" height="24" rx="6"/>
+    <rect x="66" y="10" width="24" height="24" rx="6"/>
+    <rect x="94" y="38" width="24" height="24" rx="6"/>
+  </g>
+</svg>
