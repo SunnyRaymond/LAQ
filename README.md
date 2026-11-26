@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="LAQ" width="140"/>
+</p>
+
 <h1 align="center">LAQ</h1>
 
 <p align="center"><b>Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models</b></p>
@@ -51,7 +55,6 @@ recalibration.
 - [⚡ Quick Start](#quick-start)
 - [📁 Repository Layout](#repository-layout)
 - [📝 Citation](#citation)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📜 License](#license)
 
 </details>
@@ -173,15 +176,6 @@ offline gaze; every later query uses the gaze of the query before it.
   year={2026}
 }
 ```
-
----
-
-<a id="acknowledgements"></a>
-## 🙏 Acknowledgements
-
-LAQ builds on [Fast-WAM](https://github.com/yuantianyuan01/FastWAM), Cosmos-Policy,
-[QuaRot](https://github.com/spcl/QuaRot) and [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO). We thank
-their authors for releasing their code and models.
 
 ---
 
