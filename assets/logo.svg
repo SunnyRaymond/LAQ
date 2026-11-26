@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 128 128" role="img" aria-label="LAQ logo">
-  <defs>
-    <linearGradient id="cool" x1="10" y1="118" x2="118" y2="10" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5B5BF0"/>
-      <stop offset="1" stop-color="#3FC3F7"/>
-    </linearGradient>
-    <linearGradient id="warm" x1="40" y1="88" x2="118" y2="10" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FF9A3D"/>
-      <stop offset="1" stop-color="#FF5C7A"/>
-    </linearGradient>
-  </defs>
-
-  <!-- A 4 x 4 grid of tokens on a transparent background. The cool cells fade toward the corner the gaze leaves
-       behind; the warm cells are the tokens the action looks at, forming an arrow that points to the future. -->
-  <g fill="url(#cool)">
-    <rect x="10" y="10" width="24" height="24" rx="6" opacity="0.55"/>
-    <rect x="38" y="10" width="24" height="24" rx="6" opacity="0.75"/>
-    <rect x="10" y="38" width="24" height="24" rx="6" opacity="0.40"/>
-    <rect x="38" y="38" width="24" height="24" rx="6" opacity="0.60"/>
-    <rect x="94" y="66" width="24" height="24" rx="6" opacity="0.75"/>
-    <rect x="10" y="66" width="24" height="24" rx="6" opacity="0.28"/>
-    <rect x="66" y="66" width="24" height="24" rx="6" opacity="0.60"/>
-    <rect x="10" y="94" width="24" height="24" rx="6" opacity="0.18"/>
-    <rect x="38" y="94" width="24" height="24" rx="6" opacity="0.28"/>
-    <rect x="66" y="94" width="24" height="24" rx="6" opacity="0.40"/>
-    <rect x="94" y="94" width="24" height="24" rx="6" opacity="0.55"/>
-  </g>
-  <g fill="url(#warm)">
-    <rect x="38" y="66" width="24" height="24" rx="6"/>
-    <rect x="66" y="38" width="24" height="24" rx="6"/>
-    <rect x="94" y="10" width="24" height="24" rx="6"/>
-    <rect x="66" y="10" width="24" height="24" rx="6"/>
-    <rect x="94" y="38" width="24" height="24" rx="6"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1167" viewBox="0 0 123.20 140.40" role="img" aria-label="LAQ logo">
+  <!-- Transparent background; the facets of a face meet on shared vertices for clean scaling. -->
+  <polygon points="61.60,40.20 87.58,55.20 35.62,55.20" fill="#C2E6FE" stroke="#C2E6FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,55.20 61.60,70.20 35.62,55.20" fill="#9FD5FD" stroke="#9FD5FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="35.62,55.20 61.60,70.20 35.62,85.20" fill="#74C6FB" stroke="#74C6FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,70.20 61.60,100.20 35.62,85.20" fill="#58B2F7" stroke="#58B2F7" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,55.20 61.60,70.20 87.58,85.20" fill="#3A93F5" stroke="#3A93F5" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,70.20 61.60,100.20 87.58,85.20" fill="#2674DE" stroke="#2674DE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,57.30 57.96,72.30 6.00,72.30" fill="#C2E6FE" stroke="#C2E6FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="57.96,72.30 31.98,87.30 6.00,72.30" fill="#9FD5FD" stroke="#9FD5FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="6.00,72.30 31.98,87.30 6.00,102.30" fill="#74C6FB" stroke="#74C6FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,87.30 31.98,117.30 6.00,102.30" fill="#58B2F7" stroke="#58B2F7" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="57.96,72.30 31.98,87.30 57.96,102.30" fill="#3A93F5" stroke="#3A93F5" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,87.30 31.98,117.30 57.96,102.30" fill="#2674DE" stroke="#2674DE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,57.30 117.20,72.30 65.24,72.30" fill="#C2E6FE" stroke="#C2E6FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="117.20,72.30 91.22,87.30 65.24,72.30" fill="#9FD5FD" stroke="#9FD5FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="65.24,72.30 91.22,87.30 65.24,102.30" fill="#74C6FB" stroke="#74C6FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,87.30 91.22,117.30 65.24,102.30" fill="#58B2F7" stroke="#58B2F7" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="117.20,72.30 91.22,87.30 117.20,102.30" fill="#3A93F5" stroke="#3A93F5" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,87.30 91.22,117.30 117.20,102.30" fill="#2674DE" stroke="#2674DE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,6.00 87.58,21.00 35.62,21.00" fill="#DCF1FF" stroke="#DCF1FF" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,21.00 61.60,36.00 35.62,21.00" fill="#B5E0FE" stroke="#B5E0FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="35.62,21.00 61.60,36.00 35.62,51.00" fill="#8FD6FD" stroke="#8FD6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,36.00 61.60,66.00 35.62,51.00" fill="#6FC4FB" stroke="#6FC4FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,21.00 61.60,36.00 87.58,51.00" fill="#4AA6FD" stroke="#4AA6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,36.00 61.60,66.00 87.58,51.00" fill="#2F86F0" stroke="#2F86F0" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,74.40 87.58,89.40 35.62,89.40" fill="#C2E6FE" stroke="#C2E6FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,89.40 61.60,104.40 35.62,89.40" fill="#9FD5FD" stroke="#9FD5FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="35.62,89.40 61.60,104.40 35.62,119.40" fill="#74C6FB" stroke="#74C6FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,104.40 61.60,134.40 35.62,119.40" fill="#58B2F7" stroke="#58B2F7" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,89.40 61.60,104.40 87.58,119.40" fill="#3A93F5" stroke="#3A93F5" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,104.40 61.60,134.40 87.58,119.40" fill="#2674DE" stroke="#2674DE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,23.10 57.96,38.10 6.00,38.10" fill="#DCF1FF" stroke="#DCF1FF" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="57.96,38.10 31.98,53.10 6.00,38.10" fill="#B5E0FE" stroke="#B5E0FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="6.00,38.10 31.98,53.10 6.00,68.10" fill="#8FD6FD" stroke="#8FD6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,53.10 31.98,83.10 6.00,68.10" fill="#6FC4FB" stroke="#6FC4FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="57.96,38.10 31.98,53.10 57.96,68.10" fill="#4AA6FD" stroke="#4AA6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="31.98,53.10 31.98,83.10 57.96,68.10" fill="#2F86F0" stroke="#2F86F0" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,23.10 117.20,38.10 65.24,38.10" fill="#DCF1FF" stroke="#DCF1FF" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="117.20,38.10 91.22,53.10 65.24,38.10" fill="#B5E0FE" stroke="#B5E0FE" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="65.24,38.10 91.22,53.10 65.24,68.10" fill="#8FD6FD" stroke="#8FD6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,53.10 91.22,83.10 65.24,68.10" fill="#6FC4FB" stroke="#6FC4FB" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="117.20,38.10 91.22,53.10 117.20,68.10" fill="#4AA6FD" stroke="#4AA6FD" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="91.22,53.10 91.22,83.10 117.20,68.10" fill="#2F86F0" stroke="#2F86F0" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,21.60 87.58,36.60 35.62,36.60" fill="#FFE3B8" stroke="#FFE3B8" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,36.60 61.60,51.60 35.62,36.60" fill="#FFC987" stroke="#FFC987" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="35.62,36.60 61.60,51.60 35.62,66.60" fill="#FFA54D" stroke="#FFA54D" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,51.60 61.60,81.60 35.62,66.60" fill="#FF8A3A" stroke="#FF8A3A" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="87.58,36.60 61.60,51.60 87.58,66.60" fill="#FF6A78" stroke="#FF6A78" stroke-width="0.35" stroke-linejoin="round"/>
+  <polygon points="61.60,51.60 61.60,81.60 87.58,66.60" fill="#EE4477" stroke="#EE4477" stroke-width="0.35" stroke-linejoin="round"/>
 </svg>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="LAQ" width="140"/>
+  <img src="assets/logo.svg" alt="LAQ" width="160"/>
 </p>
 
 <h1 align="center">LAQ</h1>
